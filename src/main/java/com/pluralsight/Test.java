@@ -25,6 +25,9 @@ public class Test {
         double median = (70+73) / 2;
         System.out.println("Median: " + median);
 
+        double difference = averageScore - median;
+        System.out.println("Difference between Average score and Median is: " + difference);
+
 
     }
 }
